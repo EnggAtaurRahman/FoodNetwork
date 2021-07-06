@@ -1,0 +1,137 @@
+/*-----------global---------------*/
+
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    min-height: 500px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1.5em;
+    color: rgb(65, 64, 64);
+}
+
+h2{
+    font-size: 40px;
+}
+
+h2 span,h1 span{
+    color: orange;
+}
+
+p{
+    color: dimgray;
+}
+
+/*-----------Banner section ---------------*/
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;  
+}
+.banner-text{
+    padding-top: 60px;
+}
+.banner-img img{
+    width: 500px;
+}
+
+
+
+
+/*-----------About section ---------------*/
+.about{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img img{
+    width: 347px;
+    height: auto;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+
+
+
+
+/*-----------My_recipies------------*/
+.recipies{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    
+}
+.col3 img{
+    width: 340px;
+}
+.col3 h2{
+   font-size: 30px;
+}
+
+.col3{
+    width:25%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+
+
+/*-----------extra section ------------*/
+#follow{
+        
+        background: linear-gradient(#00000075,#00000075), linear-gradient(#00000075,#00000075),url("images/food.jpg"); ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 200px 500px;
+        background-attachment: fixed;
+        
+}
+
+.follow-button{
+    text-decoration: none;
+    background: rgb(36, 20, 179);
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: rgb(218, 216, 216);
+    box-shadow: 5px 5px 5px #242424;
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+
+/*-----------  footer ------------*/
+footer{
+    background-color: black;
+    padding: 50px 100px;
+    color: white;
+    text-align: center;
+    
+}
