@@ -116,8 +116,9 @@ p{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 200px 500px;
+        padding: 200px 0;
         background-attachment: fixed;
+        text-align: center;
         
 }
 
@@ -128,8 +129,7 @@ p{
     border-radius: 25px;
     color: rgb(218, 216, 216);
     box-shadow: 5px 5px 5px #242424;
-    text-align: center;
-    margin-left: 120px;
+    
 
 }
 
